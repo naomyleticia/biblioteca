@@ -5,9 +5,18 @@ public class Livro {
 	private int numPaginas;
 	private String titulo;
 	private String autor;
+	private String editora;
 	
 	
 	
+	
+	
+	public String getEditora() {
+		return editora;
+	}
+	public void setEditora(String editora) {
+		this.editora = editora;
+	}
 	/**
 	 * @param titulo
 	 * @param autor
